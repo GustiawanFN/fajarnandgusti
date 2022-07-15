@@ -6,14 +6,23 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
+      <meta
+          name="keywords"
+          content="fajar,fajarnandagusti,fajar nanda gustiawan,nanda,gustiawan, fajar,fnandagustiawan,gustiawanfn"
+        />
+        <title>hi, I'm fajar!</title>
+       
+        {/* <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/> */}
+        <link rel="icon" href="/favicon.ico" type="image/x-icon"></link>
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="
+        👋
+        hi, I'm fajar! " />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          part-time android developer, full-time super hero.
+          {/* Get started by editing <code>pages/index.js</code> */}
         </p>
       </main>
 
