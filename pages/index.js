@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import IconImage from '@components/IconImage'
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       <Head>
       <meta
           name="keywords"
-          content="fajar,fajarnandagusti,fajar nanda gustiawan,nanda,gustiawan, fajar,fnandagustiawan,gustiawanfn"
+          content="fajar,fajarnandagusti,fajar nanda gustiawan,nanda,gustiawan,fajar,fnandagustiawan,gustiawanfn"
         />
         <title>hi, I'm fajar!</title>
        
@@ -17,16 +18,19 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="
-        👋
-        hi, I'm fajar! " />
-        <p className="description">
-          part-time android developer, full-time super hero.
+      {/* 👋 */}
+        <IconImage/>
+        <Header title="hi, I'm fajar! " />
+        <p className="descriptions">
+          part-time android developer,
+          <br/>
+          full-time super hero.
           {/* Get started by editing <code>pages/index.js</code> */}
         </p>
+        <p>  </p>
       </main>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
